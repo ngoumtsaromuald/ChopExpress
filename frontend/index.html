@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Titre et description -->
+    <title>ChopExpress - Commandez vos repas via WhatsApp</title>
+    <meta name="description" content="ChopExpress - Bot WhatsApp intelligent pour commander et se faire livrer des repas au Cameroun. Commande facile, livraison rapide, paiement sécurisé." />
+    <meta name="keywords" content="livraison repas, WhatsApp bot, commande nourriture, Cameroun, ChopExpress, restaurant, delivery" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chopexpress.com/" />
+    <meta property="og:title" content="ChopExpress - Commandez vos repas via WhatsApp" />
+    <meta property="og:description" content="Bot WhatsApp intelligent pour commander et se faire livrer des repas au Cameroun. Commande facile, livraison rapide, paiement sécurisé." />
+    <meta property="og:image" content="https://chopexpress.com/og-image.jpg" />
+    <meta property="og:locale" content="fr_CM" />
+    <meta property="og:site_name" content="ChopExpress" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://chopexpress.com/" />
+    <meta property="twitter:title" content="ChopExpress - Commandez vos repas via WhatsApp" />
+    <meta property="twitter:description" content="Bot WhatsApp intelligent pour commander et se faire livrer des repas au Cameroun." />
+    <meta property="twitter:image" content="https://chopexpress.com/twitter-image.jpg" />
+    <meta property="twitter:creator" content="@ChopExpress" />
+    
+    <!-- Favicon et icônes -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Thème et couleurs -->
+    <meta name="theme-color" content="#10B981" />
+    <meta name="msapplication-TileColor" content="#10B981" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    
+    <!-- Sécurité -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    
+    <!-- Robots et indexation -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    
+    <!-- Liens canoniques -->
+    <link rel="canonical" href="https://chopexpress.com/" />
+    
+    <!-- DNS Prefetch pour les performances -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//api.chopexpress.com" />
+    <link rel="dns-prefetch" href="//supabase.co" />
+    
+    <!-- Preconnect pour les ressources critiques -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Polices Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Variables CSS globales -->
+    <style>
+      :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+        --primary: 142.1 76.2% 36.3%;
+        --primary-foreground: 355.7 100% 97.3%;
+        --secondary: 210 40% 98%;
+        --secondary-foreground: 222.2 84% 4.9%;
+        --muted: 210 40% 96%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+        --accent: 210 40% 96%;
+        --accent-foreground: 222.2 84% 4.9%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+        --ring: 142.1 76.2% 36.3%;
+        --radius: 0.5rem;
+      }
+      
+      .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 142.1 76.2% 36.3%;
+        --primary-foreground: 355.7 100% 97.3%;
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 142.1 76.2% 36.3%;
+      }
+      
+      * {
+        border-color: hsl(var(--border));
+      }
+      
+      body {
+        background-color: hsl(var(--background));
+        color: hsl(var(--foreground));
+        font-feature-settings: "rlig" 1, "calt" 1;
+      }
+      
+      /* Loading spinner initial */
+      .loading-spinner {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(16, 185, 129, 0.3);
+        border-radius: 50%;
+        border-top-color: #10B981;
+        animation: spin 1s ease-in-out infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      
+      /* Styles pour le chargement initial */
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        color: white;
+      }
+      
+      #loading-screen .logo {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        animation: pulse 2s infinite;
+      }
+      
+      #loading-screen .spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top-color: white;
+        margin-bottom: 1rem;
+      }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+    </style>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ChopExpress",
+      "description": "Bot WhatsApp intelligent pour commander et se faire livrer des repas au Cameroun",
+      "url": "https://chopexpress.com",
+      "logo": "https://chopexpress.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+237-XXX-XXX-XXX",
+        "contactType": "customer service",
+        "availableLanguage": ["French", "English"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CM",
+        "addressLocality": "Douala"
+      },
+      "sameAs": [
+        "https://wa.me/237XXXXXXXXX",
+        "https://twitter.com/ChopExpress",
+        "https://facebook.com/ChopExpress"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Écran de chargement initial -->
+    <div id="loading-screen">
+      <div class="logo">🍽️ ChopExpress</div>
+      <div class="loading-spinner spinner"></div>
+      <p>Chargement de votre expérience culinaire...</p>
+    </div>
+    
+    <!-- Point de montage React -->
+    <div id="root"></div>
+    
+    <!-- Script principal -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Script pour masquer l'écran de chargement -->
+    <script>
+      // Masquer l'écran de chargement une fois React chargé
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          const loadingScreen = document.getElementById('loading-screen');
+          if (loadingScreen) {
+            loadingScreen.style.opacity = '0';
+            loadingScreen.style.transition = 'opacity 0.5s ease-out';
+            setTimeout(function() {
+              loadingScreen.style.display = 'none';
+            }, 500);
+          }
+        }, 1000); // Délai minimum pour l'expérience utilisateur
+      });
+      
+      // Gestion des erreurs JavaScript globales
+      window.addEventListener('error', function(e) {
+        console.error('Erreur JavaScript:', e.error);
+        // Optionnel: envoyer l'erreur à un service de monitoring
+      });
+      
+      // Gestion des promesses rejetées
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('Promise rejetée:', e.reason);
+        // Optionnel: envoyer l'erreur à un service de monitoring
+      });
+    </script>
+    
+    <!-- Service Worker pour PWA (futur) -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+              console.log('SW registered: ', registration);
+            })
+            .catch(function(registrationError) {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

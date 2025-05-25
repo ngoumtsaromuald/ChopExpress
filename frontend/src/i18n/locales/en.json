@@ -1,0 +1,219 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "copy": "Copy",
+    "paste": "Paste",
+    "cut": "Cut",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "menu": "Menu",
+    "orders": "Orders",
+    "restaurants": "Restaurants",
+    "customers": "Customers",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "help": "Help",
+    "support": "Support"
+  },
+  "menu": {
+    "title": "Restaurant Menu",
+    "subtitle": "Discover delicious dishes available through ChopExpress",
+    "empty": {
+      "title": "Menu in preparation",
+      "description": "Our chefs are preparing an exceptional selection of dishes. This page will soon be filled with delicious options!"
+    },
+    "features": {
+      "location": "Geolocation",
+      "location_desc": "Restaurants near you",
+      "delivery": "Fast delivery",
+      "delivery_desc": "Real-time tracking",
+      "quality": "Premium quality",
+      "quality_desc": "Selected dishes"
+    },
+    "coming_soon": "Coming Soon",
+    "categories": {
+      "all": "All",
+      "appetizers": "Appetizers",
+      "main_courses": "Main Courses",
+      "desserts": "Desserts",
+      "beverages": "Beverages",
+      "local_dishes": "Local Dishes",
+      "international": "International"
+    }
+  },
+  "dashboard": {
+    "title": "ChopExpress Dashboard",
+    "welcome": "Welcome to ChopExpress",
+    "stats": {
+      "total_orders": "Total Orders",
+      "active_restaurants": "Active Restaurants",
+      "revenue": "Revenue",
+      "customers": "Customers"
+    },
+    "recent_orders": "Recent Orders",
+    "popular_restaurants": "Popular Restaurants",
+    "analytics": "Analytics"
+  },
+  "orders": {
+    "title": "Order Management",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "delivering": "Delivering",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "details": {
+      "order_id": "Order ID",
+      "customer": "Customer",
+      "restaurant": "Restaurant",
+      "items": "Items",
+      "total": "Total",
+      "payment_method": "Payment Method",
+      "delivery_address": "Delivery Address",
+      "estimated_time": "Estimated Time",
+      "notes": "Notes"
+    }
+  },
+  "restaurants": {
+    "title": "Restaurant Management",
+    "add_restaurant": "Add Restaurant",
+    "restaurant_info": {
+      "name": "Restaurant Name",
+      "description": "Description",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "cuisine_type": "Cuisine Type",
+      "opening_hours": "Opening Hours",
+      "delivery_fee": "Delivery Fee",
+      "minimum_order": "Minimum Order"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending_approval": "Pending Approval",
+      "suspended": "Suspended"
+    }
+  },
+  "customers": {
+    "title": "Customer Management",
+    "customer_info": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "registration_date": "Registration Date",
+      "total_orders": "Total Orders",
+      "total_spent": "Total Spent",
+      "favorite_restaurant": "Favorite Restaurant"
+    }
+  },
+  "payment": {
+    "methods": {
+      "cinetpay": "CinetPay",
+      "mobile_money": "Mobile Money",
+      "cash_on_delivery": "Cash on Delivery",
+      "bank_transfer": "Bank Transfer"
+    },
+    "status": {
+      "pending": "Pending",
+      "completed": "Completed",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    }
+  },
+  "delivery": {
+    "types": {
+      "delivery": "Delivery",
+      "pickup": "Pickup"
+    },
+    "status": {
+      "assigned": "Assigned",
+      "picked_up": "Picked Up",
+      "in_transit": "In Transit",
+      "delivered": "Delivered"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "notifications": "Notifications",
+    "payment": "Payment",
+    "delivery": "Delivery",
+    "language": "Language",
+    "theme": "Theme",
+    "privacy": "Privacy",
+    "security": "Security"
+  },
+  "notifications": {
+    "new_order": "New order received",
+    "order_confirmed": "Order confirmed",
+    "order_ready": "Order ready",
+    "order_delivered": "Order delivered",
+    "payment_received": "Payment received",
+    "restaurant_approved": "Restaurant approved",
+    "system_maintenance": "System maintenance"
+  },
+  "errors": {
+    "network_error": "Network connection error",
+    "server_error": "Server error",
+    "validation_error": "Validation error",
+    "not_found": "Item not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Access forbidden",
+    "timeout": "Request timeout",
+    "unknown_error": "Unknown error"
+  },
+  "success_messages": {
+    "order_created": "Order created successfully",
+    "order_updated": "Order updated",
+    "restaurant_added": "Restaurant added successfully",
+    "settings_saved": "Settings saved",
+    "profile_updated": "Profile updated",
+    "password_changed": "Password changed"
+  },
+  "dev": {
+    "info": {
+      "title": "Development Information",
+      "description": "This page is part of the initial ChopExpress deliverable. Integration with the backend API and Supabase database will be implemented in the next iterations."
+    }
+  },
+  "whatsapp": {
+    "bot": {
+      "welcome": "Welcome to ChopExpress! 🍽️\nYour assistant for ordering your favorite dishes.\n\nType 'menu' to see available restaurants or 'help' for more options.",
+      "help": "Here's what I can do for you:\n\n🍽️ *menu* - View restaurants\n📋 *orders* - Your orders\n📍 *delivery* - Delivery tracking\n💰 *payment* - Payment options\n❓ *help* - This help\n\nJust type the keyword to get started!",
+      "menu_intro": "Here are the restaurants available in your area:",
+      "order_confirmation": "Your order has been confirmed!\n\n📋 Order: #{order_id}\n🏪 Restaurant: {restaurant_name}\n💰 Total: {total} FCFA\n⏰ Estimated time: {estimated_time}\n\nYou will receive updates on your order status.",
+      "payment_link": "Click this link to make payment:\n{payment_url}",
+      "order_status_update": "Update for your order #{order_id}:\n\nStatus: {status}\n{additional_info}"
+    }
+  }
+}

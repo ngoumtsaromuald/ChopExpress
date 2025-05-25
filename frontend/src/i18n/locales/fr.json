@@ -1,0 +1,219 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "refresh": "Actualiser",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "view": "Voir",
+    "download": "Télécharger",
+    "upload": "Téléverser",
+    "copy": "Copier",
+    "paste": "Coller",
+    "cut": "Couper",
+    "select_all": "Tout sélectionner",
+    "deselect_all": "Tout désélectionner"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "menu": "Menu",
+    "orders": "Commandes",
+    "restaurants": "Restaurants",
+    "customers": "Clients",
+    "analytics": "Analyses",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "help": "Aide",
+    "support": "Support"
+  },
+  "menu": {
+    "title": "Menu des Restaurants",
+    "subtitle": "Découvrez les délicieux plats disponibles via ChopExpress",
+    "empty": {
+      "title": "Menu en cours de préparation",
+      "description": "Nos chefs préparent une sélection exceptionnelle de plats. Cette page sera bientôt remplie de délicieuses options!"
+    },
+    "features": {
+      "location": "Géolocalisation",
+      "location_desc": "Restaurants près de vous",
+      "delivery": "Livraison rapide",
+      "delivery_desc": "Suivi en temps réel",
+      "quality": "Qualité premium",
+      "quality_desc": "Plats sélectionnés"
+    },
+    "coming_soon": "Bientôt disponible",
+    "categories": {
+      "all": "Tous",
+      "appetizers": "Entrées",
+      "main_courses": "Plats principaux",
+      "desserts": "Desserts",
+      "beverages": "Boissons",
+      "local_dishes": "Plats locaux",
+      "international": "International"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord ChopExpress",
+    "welcome": "Bienvenue sur ChopExpress",
+    "stats": {
+      "total_orders": "Commandes totales",
+      "active_restaurants": "Restaurants actifs",
+      "revenue": "Chiffre d'affaires",
+      "customers": "Clients"
+    },
+    "recent_orders": "Commandes récentes",
+    "popular_restaurants": "Restaurants populaires",
+    "analytics": "Analyses"
+  },
+  "orders": {
+    "title": "Gestion des Commandes",
+    "status": {
+      "pending": "En attente",
+      "confirmed": "Confirmée",
+      "preparing": "En préparation",
+      "ready": "Prête",
+      "delivering": "En livraison",
+      "delivered": "Livrée",
+      "cancelled": "Annulée"
+    },
+    "details": {
+      "order_id": "N° de commande",
+      "customer": "Client",
+      "restaurant": "Restaurant",
+      "items": "Articles",
+      "total": "Total",
+      "payment_method": "Mode de paiement",
+      "delivery_address": "Adresse de livraison",
+      "estimated_time": "Temps estimé",
+      "notes": "Notes"
+    }
+  },
+  "restaurants": {
+    "title": "Gestion des Restaurants",
+    "add_restaurant": "Ajouter un restaurant",
+    "restaurant_info": {
+      "name": "Nom du restaurant",
+      "description": "Description",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "cuisine_type": "Type de cuisine",
+      "opening_hours": "Heures d'ouverture",
+      "delivery_fee": "Frais de livraison",
+      "minimum_order": "Commande minimum"
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "pending_approval": "En attente d'approbation",
+      "suspended": "Suspendu"
+    }
+  },
+  "customers": {
+    "title": "Gestion des Clients",
+    "customer_info": {
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "Email",
+      "address": "Adresse",
+      "registration_date": "Date d'inscription",
+      "total_orders": "Commandes totales",
+      "total_spent": "Total dépensé",
+      "favorite_restaurant": "Restaurant favori"
+    }
+  },
+  "payment": {
+    "methods": {
+      "cinetpay": "CinetPay",
+      "mobile_money": "Mobile Money",
+      "cash_on_delivery": "Paiement à la livraison",
+      "bank_transfer": "Virement bancaire"
+    },
+    "status": {
+      "pending": "En attente",
+      "completed": "Complété",
+      "failed": "Échoué",
+      "refunded": "Remboursé"
+    }
+  },
+  "delivery": {
+    "types": {
+      "delivery": "Livraison",
+      "pickup": "À emporter"
+    },
+    "status": {
+      "assigned": "Assigné",
+      "picked_up": "Récupéré",
+      "in_transit": "En transit",
+      "delivered": "Livré"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "general": "Général",
+    "notifications": "Notifications",
+    "payment": "Paiement",
+    "delivery": "Livraison",
+    "language": "Langue",
+    "theme": "Thème",
+    "privacy": "Confidentialité",
+    "security": "Sécurité"
+  },
+  "notifications": {
+    "new_order": "Nouvelle commande reçue",
+    "order_confirmed": "Commande confirmée",
+    "order_ready": "Commande prête",
+    "order_delivered": "Commande livrée",
+    "payment_received": "Paiement reçu",
+    "restaurant_approved": "Restaurant approuvé",
+    "system_maintenance": "Maintenance système"
+  },
+  "errors": {
+    "network_error": "Erreur de connexion réseau",
+    "server_error": "Erreur serveur",
+    "validation_error": "Erreur de validation",
+    "not_found": "Élément non trouvé",
+    "unauthorized": "Non autorisé",
+    "forbidden": "Accès interdit",
+    "timeout": "Délai d'attente dépassé",
+    "unknown_error": "Erreur inconnue"
+  },
+  "success_messages": {
+    "order_created": "Commande créée avec succès",
+    "order_updated": "Commande mise à jour",
+    "restaurant_added": "Restaurant ajouté avec succès",
+    "settings_saved": "Paramètres enregistrés",
+    "profile_updated": "Profil mis à jour",
+    "password_changed": "Mot de passe modifié"
+  },
+  "dev": {
+    "info": {
+      "title": "Information de développement",
+      "description": "Cette page fait partie du livrable initial ChopExpress. L'intégration avec l'API backend et la base de données Supabase sera implémentée dans les prochaines itérations."
+    }
+  },
+  "whatsapp": {
+    "bot": {
+      "welcome": "Bienvenue sur ChopExpress! 🍽️\nVotre assistant pour commander vos plats préférés.\n\nTapez 'menu' pour voir les restaurants disponibles ou 'aide' pour plus d'options.",
+      "help": "Voici ce que je peux faire pour vous:\n\n🍽️ *menu* - Voir les restaurants\n📋 *commandes* - Vos commandes\n📍 *livraison* - Suivi de livraison\n💰 *paiement* - Options de paiement\n❓ *aide* - Cette aide\n\nTapez simplement le mot-clé pour commencer!",
+      "menu_intro": "Voici les restaurants disponibles dans votre zone:",
+      "order_confirmation": "Votre commande a été confirmée!\n\n📋 Commande: #{order_id}\n🏪 Restaurant: {restaurant_name}\n💰 Total: {total} FCFA\n⏰ Temps estimé: {estimated_time}\n\nVous recevrez des mises à jour sur le statut de votre commande.",
+      "payment_link": "Cliquez sur ce lien pour effectuer le paiement:\n{payment_url}",
+      "order_status_update": "Mise à jour de votre commande #{order_id}:\n\nStatut: {status}\n{additional_info}"
+    }
+  }
+}
