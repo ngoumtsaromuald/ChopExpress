@@ -2,7 +2,7 @@
 
 **Bot intelligent de commande et livraison de repas via WhatsApp pour le Cameroun**
 
-[![CI/CD Pipeline](https://github.com/your-username/chopexpress/workflows/ChopExpress%20CI/CD%20Pipeline/badge.svg)](https://github.com/your-username/chopexpress/actions)
+[![CI/CD Pipeline](https://github.com/ngoumtsaromuald/chopexpress/workflows/ChopExpress%20CI/CD%20Pipeline/badge.svg)](https://github.com/ngoumtsaromuald/chopexpress/actions)
 [![Backend Health](https://img.shields.io/badge/backend-healthy-green)](https://api.chopexpress.com/health)
 [![Frontend Status](https://img.shields.io/badge/frontend-online-blue)](https://chopexpress.com)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -88,7 +88,7 @@ graph TB
 
 1. **Cloner le repository**
 ```bash
-git clone https://github.com/your-username/chopexpress.git
+git clone https://github.com/ngoumtsaromuald/chopexpress.git
 cd chopexpress
 ```
 
@@ -257,7 +257,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 - 📧 **Email** : support@chopexpress.com
 - 💬 **Discord** : [Serveur ChopExpress](https://discord.gg/chopexpress)
 - 📚 **Documentation** : [docs.chopexpress.com](https://docs.chopexpress.com)
-- 🐛 **Issues** : [GitHub Issues](https://github.com/your-username/chopexpress/issues)
+- 🐛 **Issues** : [GitHub Issues](https://github.com/ngoumtsaromuald/chopexpress/issues)
 
 ## 🎉 Remerciements
 
@@ -272,5 +272,4 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
   <strong>Fait avec ❤️ au Cameroun pour révolutionner la livraison de repas</strong>
   <br>
   <sub>ChopExpress - Votre assistant WhatsApp pour des repas délicieux</sub>
-</div># ChopExpress
-# ChopExpress
+</div>
